@@ -1,3 +1,3 @@
 export default function getStudentIdsSum (data) {
-  return data.reduce((pervious, current) => pervious + current ,0);
+  return data.reduce((pervious, current) => pervious + current.id ,0);
 }
