@@ -1,6 +1,6 @@
 import express from 'express';
 import AppController from '../controllers/AppController';
-import StudentsController from '../controllers/StudentsController';
+import StudentsController from '../controllers/StudentController';
 
 function controllerRouting(app) {
   const router = express.Router();
