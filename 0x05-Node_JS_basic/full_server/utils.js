@@ -23,7 +23,6 @@ function readDatabase(path) {
       }
 
       delete fields.field;
-
       resolve(fields);
 
     });
