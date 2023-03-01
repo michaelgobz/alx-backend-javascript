@@ -4,7 +4,7 @@
   "description": "api tests testing endpoints",
   "main": "index.js",
   "scripts": {
-    "test": "node ./node+_modules/mocha/bin/mocha"
+    "test": "node ./node+_modules/mocha/bin/mocha 'api.test.js'"
   },
   "repository": {
     "type": "git",
